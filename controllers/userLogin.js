@@ -1,7 +1,7 @@
 var express = require("express");
 
 var router = express.Router();
-var blog = require("../models/burger.js");
+var blog = require("../models/blogs.js");
 
 //Index Route - Home
 router.get("/", function(req, res) {
