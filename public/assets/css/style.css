@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+}
+
+#homePage { 
+    background-image: url("./../images/XavierLogo.jpg");
+    height: 100%; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#homePage h2{
+    color: #84cdee;
+}
+
+.centerDiv{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40%;
+}
+
+.loginDiv{
+  color:white;
+  width: 60%;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.postBtn{
+  float: right;
+  margin-right: 10px;
+
+}
